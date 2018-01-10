@@ -72,7 +72,6 @@ def main():
     z.print_linkedList()
     print('\n')
     
-
 if __name__ =="__main__": main()
     	
     
