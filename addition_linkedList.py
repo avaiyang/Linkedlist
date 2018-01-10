@@ -1,12 +1,12 @@
-#########################################################
+#################################################################
 # Adding two numbers represented by linked list.  		#
-# The numbers are given as:						  		#
+# The numbers are given as:					#
 #    First List: 1->2->3  // represents number 321		#
 #    Second List: 4->5->6 //  represents number 654		#
-# Output												#
-#    Resultant list: 5->7->9  // represents number 975  #
+# Output							#
+#    Resultant list: 5->7->9  // represents number 975  	#
 #                                                 		#
-#########################################################
+#################################################################
 
 
 class Node():														#initialising the node 
