@@ -49,5 +49,4 @@ def main():
     z.reverse()                                 #function to reverse a linked list
     z.print_linkedList()						#printing the linked list after reversing it
     
-
 if __name__ =="__main__": main()
