@@ -1,18 +1,18 @@
 ###############################################
 # Program to create a linked list, and find   #
-# the node with a given value in the linked	  #
-# list.										  #
-#											  #
+# the node with a given value in the linked.  #
+# list.	  				      #
+#					      #
 ##############################################
 
-class Node():									#initialising the node 
+class Node():								#initialising the node 
     def __init__(self, data):
         self.data = data
         self.next = None
 
 class linkedlist():
 	def __init__(self):		
-		self.head = None 						#initialising the head to be none for the empty linkedlist
+		self.head = None 					#initialising the head to be none for the empty linkedlist
 
 	def print_linkedList(self):					#function to print the nodes of the linked list
 		a = self.head
@@ -20,7 +20,7 @@ class linkedlist():
 			print(a.data)
 			a = a.next
 
-	def find_a_number(self, value):				#function to search for a given node in the linked list
+	def find_a_number(self, value):					#function to search for a given node in the linked list
 		temp = self.head
 		count = 1
 		while(temp.data!=value):
@@ -30,7 +30,7 @@ class linkedlist():
 				return
 			else:
 				count +=1
-		print(count)							#will return the position where the node is found
+		print(count)						#will return the position where the node is found
 
 
 def main():
